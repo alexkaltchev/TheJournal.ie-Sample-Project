@@ -1,0 +1,27 @@
+System Requirements
+
+1. PHP version 5.6 or higher
+2. PHP Curl extension
+3. PHP JSON extension
+
+
+Installation
+
+1. Copy the files in the web server folder root
+2. If you are using a web server other than Apache, configure the web server to forward all requests to the index.php file.
+
+
+Getting Started
+
+1. To display the contents of the home page river, point your browser to http://localhost/
+2. To display the contents for a specific tag, point your browser to http://localhost/[tag]/, e.g. http://localhost/google/
+
+
+Testing
+
+PHPUnit is already included (via composer) and configured for this sample project and Unit Tests are created for the home page, 'google' and 'facebook' tags
+
+To run the tests execute the following command from the linux shell:
+
+./vendor/phpunit/phpunit/phpunit
+
